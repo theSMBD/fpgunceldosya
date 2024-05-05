@@ -5,7 +5,7 @@ import HomeScreen from './app/screens/HomeScreen';
 export default function App() {
   return (
     <View style={styles.container}>
-      <HomeScreen></HomeScreen>
+      <text>KAFE DENEME</text>
       <StatusBar style="auto" />
     </View>
   );
