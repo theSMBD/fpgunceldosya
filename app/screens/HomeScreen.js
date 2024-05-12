@@ -25,7 +25,8 @@ const HomeScreen = () => {
   const [activeCategoryId, setActiveCategoryId] = useState(null);
 
   return (
-    <SafeAreaView>
+    <View style={{backgroundColor:"#ede1d3",flex:1}}>
+      
       <ScrollView
         style={{
           padding: SPACING,
@@ -33,8 +34,11 @@ const HomeScreen = () => {
       >
         <View
           style={{
+            padding: SPACING,
             flexDirection: "row",
             justifyContent: "space-between",
+            backgroundColor: "black",
+    
           }}
         >
           <TouchableOpacity
@@ -50,6 +54,7 @@ const HomeScreen = () => {
                 height: "100%",
                 justifyContent: "center",
                 alignItems: "center",
+                backgroundColor: "black",
               }}
             >
               <Ionicons
@@ -87,7 +92,7 @@ const HomeScreen = () => {
         <View style={{ width: "80%", marginVertical: SPACING * 3 }}>
           <Text
             style={{
-              color: colors.white,
+              color: colors.black,
               fontSize: SPACING * 3.5,
               fontWeight: "600",
             }}
@@ -239,7 +244,7 @@ const HomeScreen = () => {
             ))}
         </View>
       </ScrollView>
-    </SafeAreaView>
+    </View>
   );
 };
 

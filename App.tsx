@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import HomeScreen from './app/screens/HomeScreen';
+import CoffeeDetailsScreen from './app/screens/CoffeeDetailsScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <text>KAFE DENEME</text>
-      <StatusBar style="auto" />
+      <HomeScreen></HomeScreen>      
+            <StatusBar style="auto" />
     </View>
   );
 }
@@ -14,7 +15,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'black',
     alignItems: 'center',
     justifyContent: 'center',
   },
