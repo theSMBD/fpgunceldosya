@@ -25,7 +25,7 @@ const HomeScreen = () => {
   const [activeCategoryId, setActiveCategoryId] = useState(null);
 
   return (
-    <View style={{backgroundColor:"#ede1d3",flex:1}}>
+    <View style={{backgroundColor:"black",flex:1}}>
       
       <ScrollView
         style={{
@@ -92,7 +92,7 @@ const HomeScreen = () => {
         <View style={{ width: "80%", marginVertical: SPACING * 3 }}>
           <Text
             style={{
-              color: colors.black,
+              color: colors["white-smoke"],
               fontSize: SPACING * 3.5,
               fontWeight: "600",
             }}
